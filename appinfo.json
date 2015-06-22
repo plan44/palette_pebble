@@ -1,0 +1,23 @@
+{
+  "uuid": "6be2cb3d-e28f-492a-ac4e-79a9fe2ec13a",
+  "shortName": "palette",
+  "longName": "Palette Clock",
+  "companyName": "plan44.ch",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": [ "basalt" ],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon_palette_watch.png"
+      }
+    ]
+  }
+}

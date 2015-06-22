@@ -1,0 +1,8 @@
+
+# Ignore build generated files
+build
+.waf-*/
+.lock-waf*
+*.bbprojectd/
+appstore/
+artwork/old_versions/
