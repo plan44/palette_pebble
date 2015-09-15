@@ -3,7 +3,7 @@
   "shortName": "palette",
   "longName": "Palette Clock",
   "companyName": "plan44.ch",
-  "versionLabel": "1.0",
+  "versionLabel": "1.1",
   "sdkVersion": "3",
   "targetPlatforms": [ "basalt" ],
   "watchapp": {

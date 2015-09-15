@@ -137,7 +137,8 @@ void minute_layer_callback(struct Layer *layer, GContext *ctx)
   }
   for (i = 0; i<60; i++) {
     gpath_rotate_to(hourSegment, currentHourHexAngle + i*TRIG_MAX_ANGLE/60);
-    graphics_context_set_fill_color(ctx, minuteColors[59-i]);
+//    graphics_context_set_fill_color(ctx, minuteColors[59-i]);
+    graphics_context_set_fill_color(ctx, minuteColors[i]);
     gpath_draw_filled(ctx, hourSegment);
   }
 }
