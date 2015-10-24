@@ -9,8 +9,13 @@
 
 
 // Geometry constants
+#ifdef PBL_ROUND
+#define MINUTE_DIAMETER 180
+#define HOUR_DIAMETER 118
+#else
 #define MINUTE_DIAMETER 144
 #define HOUR_DIAMETER 95
+#endif
 
 #define NUM_SEGMENTS 60
 
